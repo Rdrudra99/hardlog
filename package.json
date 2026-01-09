@@ -1,0 +1,59 @@
+{
+  "name": "@rdrudra99/hardlog",
+  "version": "0.1.0",
+  "description": "Beautiful, colorful dev-only logging for Node.js and Browser with zero configuration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "bun run build",
+    "watch": "tsc --watch",
+    "dev": "tsc --watch",
+    "test": "bun test-manual.js",
+    "clean": "rm -rf dist/"
+  },
+  "keywords": [
+    "logger",
+    "logging",
+    "dev",
+    "development",
+    "console",
+    "color",
+    "colors",
+    "pretty",
+    "terminal",
+    "browser",
+    "node",
+    "typescript",
+    "bun",
+    "nextjs",
+    "express",
+    "debug",
+    "ansi",
+    "styled",
+    "zero-config",
+    "dev-tools"
+  ],
+  "author": "Rdrudra99",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rdrudra99/hardlog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rdrudra99/hardlog/issues"
+  },
+  "homepage": "https://github.com/Rdrudra99/hardlog#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
